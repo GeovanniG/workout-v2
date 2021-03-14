@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ExerciseFromsWithStore from './components/ExerciseForms/ExerciseFormsWithStore';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <ExerciseFromsWithStore />
   </React.StrictMode>,
   document.getElementById('root')
 );
